@@ -1,0 +1,21 @@
+<resources>
+
+    <string name="app_name">PrimeraEvaluacion</string>
+
+    <!-- principal -->
+    <string name="lblNuevoEstudiante">Nuevo estudiante</string>
+    <string name="lbllistaEstudiante">Lista estudiantes</string>
+
+    <!-- formulario estudiante -->
+    <string name="lblNombreEstudiante">Nombre</string>
+    <string name="lblCodigoEstudiante">Código</string>
+    <string name="lblMateriaEstudiante">Materia</string>
+    <string name="lblPrimerPacialEstudiante">Primer Parcial: 30%</string>
+    <string name="lblSegundoPacialEstudiante">Segundo Parcial: 30%</string>
+    <string name="lblTercerPacialEstudiante">Tercer Parcial: 40%</string>
+    <string name="lblGuardar">Guardar</string>
+
+    <!-- listado estudiante -->
+    <string name="lblCorrelativo">1</string>
+    <string name="lblMateriaPromedio">Materia 10</string>
+</resources>

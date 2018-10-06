@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".EstudianteActivity">
+
+    <EditText
+        android:id="@+id/txtNombreEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/lblNombreEstudiante"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtCodigoEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/lblCodigoEstudiante"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtMateriaEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/lblMateriaEstudiante"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtPrimerParcialEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/lblPrimerPacialEstudiante"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtSegundoParcialEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/lblSegundoPacialEstudiante"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtTercerParcialEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/lblTercerPacialEstudiante"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnGuardarEstudiante"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickBotton"
+        android:text="@string/lblGuardar" />
+</LinearLayout>
